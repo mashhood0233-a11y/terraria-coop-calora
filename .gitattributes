@@ -1,0 +1,11 @@
+# Configuration for git attributes  
+# See https://github.com/github/linguist
+*.gif binary
+*.yml linguist-detectable=false
+*.ts linguist-detectable
+*.png binary
+public/* linguist-vendored
+
+dist/* linguist-vendored
+build/* linguist-vendored
+# eof 186625a8
